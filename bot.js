@@ -142,7 +142,7 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__برودكاست بوت | Version 1.1__ 
+            .setDescription(`**__Ve , BroadCast By ! 'Tu , عزوز#0001__ 
 
             برودكاست عادي : ${prefix}bc
             معلومات عن السيرفر : ${prefix}server
