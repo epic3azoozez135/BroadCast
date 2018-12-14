@@ -20,10 +20,7 @@ console.log(`https://discordapp.com/oauth2/authorize?client_id=${client.user.id}
 السلام عليكم ورحمة الله وبركاته .
 هذا ملف بوت برودكاست بوت بالظبط ولكن فيه بعض التصليحات لمشاكل موجودة في البوت
 -
-جميع الحقوق محفوظة لسيرفر كودز .
-CODES SERVER - MOORZ
 */
-
 client.on("message", async message => {
     var command = message.content.split(" ")[0];
     command = command.slice(prefix.length);
