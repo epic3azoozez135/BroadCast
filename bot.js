@@ -152,7 +152,4 @@ client.on("message", async message => {
             message.channel.sendEmbed(help); 
     }
 });
-
-
-
-
+client.login(process.env.BOT_TOKEN);
